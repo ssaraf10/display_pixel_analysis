@@ -11,6 +11,6 @@ def find_contour_stats(cnt):
     stats["height"] = height
     stats["size"] = (width+height)/2
     stats["area"] = cv2.contourArea(cnt)
-    stats["box"] = np.intp(cv2.boxPoints(cnt))
+    # stats["box"] = np.intp(cv2.boxPoints(cnt))
 
     return stats

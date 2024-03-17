@@ -27,9 +27,9 @@ def create_image_segmentation(img, centers, labels):
         cluster_images[color] = cluster_image
 
     # Display the four cluster images
-    for k, cluster_image in cluster_images.items():
-        cv2.imshow(f'Original image {k} pixels', cluster_image)
-        cv2.waitKey(0)
-        cv2.destroyAllWindows()
+    # for k, cluster_image in cluster_images.items():
+    #     cv2.imshow(f'Original image {k} pixels', cluster_image)
+    #     cv2.waitKey(0)
+    #     cv2.destroyAllWindows()
 
     return cluster_images
